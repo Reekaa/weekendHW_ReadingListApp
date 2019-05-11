@@ -1,11 +1,9 @@
 import React, {Component} from 'react';
-// import Header from '../components/Header.js';
 import bookData from '../data/BookData.js'
 import BookList from '../components/BookList.js';
 import BookForm from '../components/BookForm.js';
 import SearchField from 'react-search-field';
 import './BookBox.css';
-// import BookSelect from '../components/BookSelect.js';
 
 class BookBox extends Component {
 
@@ -41,17 +39,11 @@ class BookBox extends Component {
     this.setState({selectedBookIndex: null});
   }
 
-  // getListData(){
-  //   if(this.state.selectedBookIndex === null){
-  //     return this.state.bookList
-  //   }
-  // }
-
-
   render(){
     return(
       <div>
         <h1>Reading list</h1>
+        <img id="header" src="/images/book.jpeg"/>
         <h3>Add new Book to the list</h3>
         <br></br>
         <BookForm handleBookSubmit={this.handleBookSubmit}/>
