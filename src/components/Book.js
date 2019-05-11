@@ -3,9 +3,9 @@ import './Book.css';
 
 const Book = (props) => {
   return (
-    <div className="ui raised purple three stackable card">
+    <div className="card">
       <div className="ui image">
-        <img src={props.image} alt='book' width='100' height="100"/>
+        <img src={props.image} alt='book'/>
       </div>
       <div className="content">
         <h3 className="author">Author: {props.author}</h3>

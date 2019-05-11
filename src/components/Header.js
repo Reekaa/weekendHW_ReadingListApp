@@ -4,8 +4,9 @@ import './Header.css';
 function Header(){
   return(
     <div className="header">
+      <br></br>
       <h4>To read list</h4>
-      <img src = "images/books.jpeg" alt = "header"/>
+      <br></br>
     </div>
   )
 }

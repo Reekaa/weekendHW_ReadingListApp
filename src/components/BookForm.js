@@ -14,7 +14,7 @@ class BookForm extends Component {
   this.handleAuthorChange = this.handleAuthorChange.bind(this);
   this.handleTitleChange = this.handleTitleChange.bind(this);
   this.handleTypeChange = this.handleTypeChange.bind(this);
-  this.handleImageChange = this.handleTitleChange.bind(this);
+  this.handleImageChange = this.handleImageChange.bind(this);
   this.handleSubmit = this.handleSubmit.bind(this);
 
   }
@@ -60,7 +60,7 @@ class BookForm extends Component {
     return(
     <div className="ui form">
       <form onSubmit={this.handleSubmit} className="ui form">
-        <div className="four-fields">
+        <div className="four fields">
           <div className="field">
             <input
                type="text"
@@ -93,7 +93,7 @@ class BookForm extends Component {
                onChange={this.handleImageChange}
             />
           </div>
-            <input type="submit" value="Add book"/>
+          <input className="tiny ui button" type="submit" value="Add book"/>
         </div>
       </form>
     </div>

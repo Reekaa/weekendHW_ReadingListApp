@@ -1,5 +1,6 @@
 import React from 'react';
 import Book from './Book.js';
+import './BookList.css';
 
 const BookList = (props) => {
   const books = props.data.map((book, index) => {
@@ -15,7 +16,7 @@ const BookList = (props) => {
   })
 
   return(
-    <div className="books-list">
+    <div className="ui wide grid">
       {books}
     </div>
   )

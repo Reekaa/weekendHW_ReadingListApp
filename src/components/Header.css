@@ -1,12 +1,14 @@
 img{
-  border: none;
   display: block;
-  width: 50%;
-  height: auto;
-  border-radius: inherit;
+  margin-left: auto;
+  margin-right: auto;
+  height:
+
 }
 h4{
   position: absolute;
-  top: 0px;
-  right: 360px;
+  top: 30px;
+  right: 730px;
+  color: white;
+  font-size: 40px;
 }
